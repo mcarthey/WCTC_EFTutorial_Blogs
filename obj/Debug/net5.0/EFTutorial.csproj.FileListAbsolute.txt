@@ -70,3 +70,5 @@ D:\WCTC\Net Database Programming 156-101-12090\Class 10\EFTutorial\obj\Debug\net
 D:\WCTC\Net Database Programming 156-101-12090\Class 10\EFTutorial\obj\Debug\net5.0\EFTutorial.pdb
 D:\WCTC\Net Database Programming 156-101-12090\Class 10\EFTutorial\obj\Debug\net5.0\EFTutorial.genruntimeconfig.cache
 D:\WCTC\Net Database Programming 156-101-12090\Class 10\EFTutorial\bin\Debug\net5.0\appsettings.json
+D:\WCTC\Net Database Programming 156-101-12090\Class 10\EFTutorial\bin\Debug\net5.0\Castle.Core.dll
+D:\WCTC\Net Database Programming 156-101-12090\Class 10\EFTutorial\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll

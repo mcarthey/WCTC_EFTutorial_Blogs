@@ -9,8 +9,8 @@ namespace EFTutorial.Models
 {
     public class BlogContext : DbContext
     {
-        DbSet<Blog> Blogs {get;set;}
-        DbSet<Post> Posts {get;set;}
+        public DbSet<Blog> Blogs {get;set;}
+        public DbSet<Post> Posts {get;set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,7 +19,9 @@ namespace EFTutorial.Models
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            optionsBuilder.UseSqlServer(configuration.GetConnectionString("BloggingContext"));
+            optionsBuilder
+            .UseLazyLoadingProxies()
+            .UseSqlServer(configuration.GetConnectionString("BloggingContext"));
         }
     }
 }
