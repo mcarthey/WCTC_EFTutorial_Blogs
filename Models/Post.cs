@@ -9,6 +9,6 @@ namespace EFTutorial.Models
         
         // entity framework relationship
         // Navigation Properties
-        public Blog Blog {get;set;}
+        public virtual Blog Blog {get;set;}
     }
 }
