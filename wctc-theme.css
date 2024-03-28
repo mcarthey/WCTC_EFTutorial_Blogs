@@ -1,0 +1,35 @@
+/* wctc-theme.css */
+:root {
+  --color-primary: #003e7a; /* Primary blue color */
+  --color-secondary: #0077bf; /* Secondary blue color */
+  --color-accent: #a5ce39; /* Green accent color */
+  --color-background: #ffffff; /* Background color */
+  --color-text: #000000; /* Text color */
+}
+
+/* Apply the theme colors */
+.theme-wctc {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.theme-wctc h1,
+.theme-wctc h2,
+.theme-wctc h3 {
+  color: var(--color-primary);
+}
+
+.theme-wctc a,
+.theme-wctc a:visited {
+  color: var(--color-secondary);
+}
+
+.theme-wctc strong {
+  color: var(--color-accent);
+}
+
+img[alt~="WCTC"] {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}

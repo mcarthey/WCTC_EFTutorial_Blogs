@@ -58,6 +58,37 @@ namespace EFTutorial
             //     db.SaveChanges();
             // }
 
+            // 5. List Posts in Blog using Eager Loading
+            //  using (var db = new BlogContext())
+            // {
+            //     var blogs = db.Blogs.Include(blog => blog.Posts);
+
+            //     foreach (var blog in blogs)
+            //     {
+            //         Console.WriteLine($"Blog: {blog.BlogId}: {blog.Name}");
+
+            //         foreach (var post in blog.Posts)
+            //         {
+            //             Console.WriteLine($"    Post: {post.PostId}: {post.Title}");
+            //         }
+            //     }
+            // }
+            // 6. List Posts in Blog using Lazy Loading
+            // using (var db = new BlogContext())
+            // {
+            //     var blogs = db.Blogs.ToList();
+
+            //     foreach (var blog in blogs)
+            //     {
+            //         Console.WriteLine($"Blog: {blog.BlogId}: {blog.Name}");
+
+            //         foreach (var post in blog.Posts)
+            //         {
+            //             Console.WriteLine($"    Post: {post.PostId}: {post.Title}");
+            //         }
+            //     }
+            // }
+
         }
     }
 }
